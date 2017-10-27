@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group android:checkableBehavior="single">
+<item
+    android:id="@+id/information"
+    android:title="个人资料"
+    android:icon="@drawable/icon1"
+    android:typeface="serif"
+    ></item>
+        <item
+            android:id="@+id/information1"
+            android:title="我的预约"
+            android:icon="@drawable/icon2"
+            android:typeface="serif"
+            ></item>
+        <item
+            android:id="@+id/information2"
+            android:title="我的病历"
+            android:icon="@drawable/icon3"
+            android:typeface="serif"/>
+        <item
+            android:id="@+id/information3"
+            android:title="我的检查结果"
+            android:icon="@drawable/icon4"
+            android:typeface="serif"
+            ></item>
+    </group>
+    <item android:title="其他">
+        <menu>
+            <item android:id="@+id/exit"
+                android:title="退出"/>
+            <item android:id="@+id/callback"
+                android:title="反馈" />
+        </menu>
+    </item>
+</menu>
